@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSignup" type="id"/>
+    <item name="forgotPasswordText" type="id"/>
+    <item name="signupButton" type="id"/>
+    <item name="loginButton" type="id"/>
+    <item name="passwordField" type="id"/>
+    <item name="emailField" type="id"/>
+    <item name="listViewHistory" type="id"/>
+    <item name="buttonSend" type="id"/>
+    <item name="editTextMessage" type="id"/>
+    <item name="recyclerViewMessages" type="id"/>
+</resources>

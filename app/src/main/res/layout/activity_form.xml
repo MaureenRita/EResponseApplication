@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incident Response Form"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incident Type:"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinnerIncidentType"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/incident_types"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter area name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="30dp"/>
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter your phone number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="30dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Describe the incident"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intensity (1-10):"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
+
+        <SeekBar
+            android:id="@+id/seekBarIntensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:max="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_photo"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/buttonSelectPhoto"
+            android:layout_width="128dp"
+            android:layout_height="59dp"
+            android:background="@drawable/button_background"
+            android:onClick="onSelectPhotoClick"
+            android:text="Select Photo"
+            android:textColor="@color/colorTextPrimary" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectedPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/ivSelectedPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnSubmitForm"
+            android:layout_width="147dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="Submit"
+            android:textColor="@color/colorTextPrimary" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">final yr ERA</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_signup">don\'t have an account? signup</string>
+    <string name="already_have_an_account_login">already have an account? login</string>
+    <string name="contacts">Emergency Contacts</string>
+    <string name="upload_photo">upload photo</string>
+    <string name="logout">logout</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="profile_image_desc">profile image description</string>
+
+    <string name="fire_guidelines">Fire Safety Guidelines</string>
+    <string name="fire_safety_instructions">
+        1. Do not panic. Stay calm and assess the situation.\n
+        2. Use the nearest fire extinguisher to control small fires.\n
+        3. If the fire is uncontrollable, evacuate immediately.\n
+        4. Close doors behind you to prevent the spread of fire.\n
+        5. Use the stairs, not the elevator, during an evacuation.\n
+        6. Call emergency services as soon as you are safe.\n
+        7. If trapped, stay close to the floor to avoid smoke inhalation.\n
+        8. Signal for help from a window or call for help if you have a phone.\n
+        9. Do not re-enter the building until it is declared safe by authorities.\n
+    </string>
+
+    <string name="floods_guidelines">Floods Safety Guidelines</string>
+    <string name="floods_safety_instructions">
+        1. Move to higher ground immediately.\n
+        2. Do not walk, swim, or drive through floodwaters.\n
+        3. Stay informed by listening to weather updates and emergency broadcasts.\n
+        4. Turn off utilities if instructed to do so.\n
+        5. Avoid contact with floodwater as it may be contaminated.\n
+        6. Do not use electrical appliances that have been in contact with water.\n
+        7. Be cautious of snakes and other animals that may have entered your home.\n
+        8. After the flood, return home only when authorities say it is safe.\n
+        9. Clean and disinfect everything that got wet to prevent mold and disease.\n
+    </string>
+
+    <string name="medical_emergency_guidelines">Medical Emergency Guidelines</string>
+    <string name="medical_emergency_safety_instructions">
+        1. Call emergency services immediately.\n
+        2. Provide first aid if you are trained and it is safe to do so.\n
+        3. Do not move the injured person unless they are in immediate danger.\n
+        4. Stay with the injured person and keep them calm.\n
+        5. Monitor their breathing and consciousness until help arrives.\n
+        6. If the person is bleeding, apply pressure to the wound with a clean cloth.\n
+        7. If the person is not breathing and you are trained, perform CPR.\n
+        8. Do not give the person anything to eat or drink.\n
+        9. Relay all relevant information to the emergency responders upon their arrival.\n
+    </string>
+
+    <string name="car_accident_guidelines">Car Accident Safety Guidelines</string>
+    <string name="car_accident_safety_instructions">
+        1. Move to a safe location if possible, out of the way of traffic.\n
+        2. Turn on your hazard lights to warn other drivers.\n
+        3. Call emergency services to report the accident.\n
+        4. Check for injuries and provide first aid if necessary and you are trained.\n
+        5. Do not move anyone who is seriously injured unless there is immediate danger.\n
+        6. Exchange information with the other driver(s), including names, addresses, and insurance details.\n
+        7. Take photos of the accident scene, including all vehicles involved and any damage.\n
+        8. Do not admit fault or discuss the accident details with anyone other than the police.\n
+        9. Follow up with your insurance company to report the accident and start the claims process.\n
+    </string>
+    <string name="save_changes">save changes\n</string>
+    <string name="photo_description">Description of the photo</string>
+    <string name="name">"name "</string>
+    <string name="confirm_password">"Confirm Password "</string>
+    <string name="Signup">Signup\n</string>
+
+</resources>

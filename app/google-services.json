@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243684768735",
+    "project_id": "th-year-4fc5d",
+    "storage_bucket": "th-year-4fc5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243684768735:android:6d2775f050e367be2ce26a",
+        "android_client_info": {
+          "package_name": "com.example.finalyrera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAskMBgJVBzf0_DPhRs-Osc9NFXwmBOZC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

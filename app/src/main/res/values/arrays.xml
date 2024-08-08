@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/arrays.xml -->
+<resources>
+    <string-array name="incident_types">
+        <item>Car Accident</item>
+        <item>Floods</item>
+        <item>Fire</item>
+        <item>Medical Emergency</item>
+    </string-array>
+</resources>
